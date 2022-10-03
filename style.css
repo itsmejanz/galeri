@@ -26,12 +26,12 @@ body {
 header h1 {
     margin-left: auto;
     margin-right: auto;
-    font-size: 200%; 
+    font-size: 150%; 
     font-weight: bold;
     display: flex;    
     margin-bottom: 120px; 
     background-color: #0a164b;
-    width: 350px;
+    width: 265px;
     border-radius:15px ;
     
 }
