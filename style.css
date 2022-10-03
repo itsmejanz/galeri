@@ -113,7 +113,7 @@ section div.container img {
     border: 1px solid transparent;
     opacity: 1;
     transition: opacity .5s;
-    grid-gap: 15px;
+    grid-gap: 155px;
 }
 
 section div.container img:hover {
@@ -126,6 +126,8 @@ section {
 
 section h2 {
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
 }
 
 /* END OF SECTIONS */
