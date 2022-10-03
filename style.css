@@ -4,8 +4,8 @@ body {
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    background-image: linear-gradient(to bottom right, rgb(9, 10, 85), #061641, #5ed1f5);
-    color: #5ed1f5;
+    background-image: linear-gradient(to bottom right, #5e28da, rgb(9, 10, 85),  #5ed1f5);
+    color: #33c8e2;
 }
 
 .wrapper {
@@ -17,41 +17,15 @@ body {
 /* HEADER SECTION */
 
 .header {
+    position: absolute;
     overflow: hidden;
+    text-align: center;
 }
-.jumbotron h2{
-	position: absolute;
-	text-transform: uppercase;
-	font-weight: 800;
-	font-size: 9em;
-	font-family: "Azonix", sans-serif;
-}
-.jumbotron h2.text{
-	background: -webkit-linear-gradient(90deg, rgba(3,169,250,1) 0%, rgba(135,251,203,1) 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	z-index: 2;
-}
-.jumbotron h2.text2{
-	color: rgba(0,0,0,0.1);
-	transform: translate(25px, 25px);
-	z-index: 1;
-}
-.jumbotron h2.other{
-	color: transparent;
-	/*-webkit-text-stroke: 0.1px #fcba03;*/
-	/*-webkit-text-stroke: 0.1px #fff;*/
-	z-index: 3;
-	transform: translate(-5px, -5px);
-}
+
+
 header h1 {
-    /* float: left; */
     font-size: 160%; 
-    display: inline-block;     
-}
-@font-face{
-	font-family: "Azonix";
-	src: url('Azonix.otf') format('opentype');
+    display: flex;     
 }
 Button {
     background-color: #5ed1f5;
@@ -86,24 +60,28 @@ Button {
 
 nav {
     float: right;
+
 }
 
 nav ul li {
     list-style: none;
+    text-align: center;
     float: left;
     margin-left: 20px;
+    
 }
 
 nav ul li a {
     text-decoration: none;
     font-size: 130%;
     font-weight: 600;
-    color: #ffffff;  
+    color: #33c8e2;  
     
 }
 
 nav ul li a:hover {
-    color: #C0B6A8;
+    color: #76e0e0;
+    
 }
 
 /* END NAVIGATION */
@@ -175,10 +153,11 @@ section h2 {
         right: 5%;
         top: 0%;
         padding: 3% 7%;
-        background: #C0B6A8;
+        background: #0a164b;
         width: 200px;
         text-align: center;
         z-index: 10;
+        border-radius: 15px;
     }
     nav ul li {
         width: 90%;
