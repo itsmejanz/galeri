@@ -6,6 +6,7 @@ body {
     font-size: 16px;
     background-image: linear-gradient(to bottom right, #5e28da, rgb(9, 10, 85),  #5ed1f5);
     color: #33c8e2;
+    
 }
 
 .wrapper {
@@ -20,6 +21,7 @@ body {
     position: absolute;
     overflow: hidden;
     text-align: center;
+    
 }
 
 
@@ -32,7 +34,7 @@ header h1 {
     margin-bottom: 120px; 
     background-color: #0a164b;
     width: 265px;
-    border-radius:15px ;
+    border-radius:10px ;
     
 }
 Button {
@@ -82,7 +84,7 @@ nav ul li {
 }
 
 nav ul li a {
-    width: 300px;
+    width: 60px;
     text-decoration: none;
     font-size: 130%;
     font-weight: 600;
@@ -96,6 +98,7 @@ nav ul li a:hover {
     color: #76e0e0;
     background-color: #5e28da;
     border-radius: 5px;
+    
     
 }
 
@@ -130,7 +133,12 @@ section h2 {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 60px;
-    background-color: #5e28da;
+    background-color: #17083b;
+    align-items: center;
+    border-radius: 5px;
+    width: 20%;
+    margin-left: 40%;
+    
 }
 
 /* END OF SECTIONS */
