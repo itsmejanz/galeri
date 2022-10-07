@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+section.hero{
+    display: flex;
+    width: 100%;
+    height: 96vh;
+    justify-content: space-between;
+}
+.column-ilustration-hero img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9999;
+}
+.il-1 {
+    top: 20%;
+}
+.column-text-heading{ 
+    padding-top: 80px ;
+    width: 50%;
+    height: 80vh;
+}
+h1.hero-heading{
+    font-size: 64px;
+    
+}
+p.text-p{
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.title-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+    font-size: 30px;
+}
+.dokumentasi{
+    display: flex;
+    justify-content:start ;
+    align-items: flex-start;
+}
+
+.text-dokumentasi h1{
+    margin-left: 60px;
+    font-size: 56px;
+    text-transform: capitalize;
+}
+
+.text-dokumentasi p{
+    font-size: 18px;
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 60px;
+}
+
+.text-dokumentasi img{
+    margin-left: 60px;
+    margin-top: 75px;
+}
